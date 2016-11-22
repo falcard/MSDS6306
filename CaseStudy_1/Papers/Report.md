@@ -349,7 +349,7 @@ ggplot(merge_data, aes(Income.Group, GDP, color = Income.Group)) +
 ```
 
 ![](papers\Report_files/figure-html/unnamed-chunk-9-1.png)<!-- -->
-
+![Figure-1](Papers/Report_files/figure-html/unnamed-chunk-9-1.png)
 
 Observations from the boxplot - 
 
