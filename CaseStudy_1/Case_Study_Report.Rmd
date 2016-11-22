@@ -3,7 +3,7 @@ title: "Case Study - 1"
 date: "November 8, 2016"
 knit: (function(inputFile, encoding) { 
       rmarkdown::render(inputFile,
-                        encoding=encoding,                         output_file='papers/Report.html') } )
+                        encoding=encoding,output_file='papers/Report.html') } )
 output:
   html_document:
     keep_md: true
@@ -121,7 +121,7 @@ ggplot(merge_data, aes(Income.Group, GDP, color = Income.Group)) +
   scale_y_log10()+
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 ```
-![Figure-1](Papers/Report_files/figure-html/unnamed-chunk-9-1.png)
+![Figure-1](https://github.com/raunakm90/MSDS6306/blob/master/CaseStudy_1/Papers/Report_files/figure-html/unnamed-chunk-9-1.png)
 
 Observations from the boxplot - 
 
