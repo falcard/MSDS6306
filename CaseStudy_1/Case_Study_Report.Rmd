@@ -77,7 +77,7 @@ source("Analysis/OrderData.R",echo = TRUE)
 ####Match the data based on the country shortcode. How many of the IDs match?
 
 ```{r}
-message("No. of ID's matched between the two data sets: ",length(merge_data))
+message("No. of ID's matched between the two data sets: ",nrow(merge_data))
 ```
 
 

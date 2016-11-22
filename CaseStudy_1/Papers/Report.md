@@ -281,11 +281,11 @@ source("Analysis/OrderData.R",echo = TRUE)
 
 
 ```r
-message("No. of ID's matched between the two data sets: ",length(merge_data))
+message("No. of ID's matched between the two data sets: ",nrow(merge_data))
 ```
 
 ```
-## No. of ID's matched between the two data sets: 5
+## No. of ID's matched between the two data sets: 189
 ```
 
 
