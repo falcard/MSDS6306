@@ -125,7 +125,7 @@ ggplot(merge_data, aes(Income.Group, GDP, color = Income.Group)) +
 
 Observations from the boxplot - 
 
-1. High income OECD has more varition in the GDP income values compared to rest of the groups
+1. High income OECD has more variation in the GDP income values compared to rest of the groups
 
 2. There seems to be a difference in the mean of value of GDP income between different groups of income
 
